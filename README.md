@@ -1,4 +1,4 @@
-# Aplicación Proyecto N.2 del primer parcial
+# Aplicación web Proyecto N.2 del primer parcial
 
 En esta  aplicación web vamos a ver las funcionalidades lógicas, el registro de usuarios en formato tabular y mis datos personales la cual es la primera página de inicio.
 
