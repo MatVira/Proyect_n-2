@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina_2 Funcionalidades Lógicas</title>
+    <link rel="stylesheet" href="styles/styles_pag2.css">
+</head>
+<body>
+
+    <header>
+        <h1>Pagina N.2 funcionalidades lógicas</h1>
+        <a href="index_pag1.html" class="btn-back">ATRÁS</a>
+    </header>
+
+    <main class="container">
+        <!-- Bloque IF -->
+        <div class="box if">
+            <h2>Estructura IF</h2>
+            <label for="numero1">Ingrese el primer número:</label>
+            <input type="number" id="numero1" placeholder="Primer número">
+            <label for="numero2">Ingrese el segundo número:</label>
+            <input type="number" id="numero2" placeholder="Segundo número">
+            <button id="compararBtn">Comparar</button>
+            <div id="resultadoIf"></div>
+        </div>
+
+        <!-- Bloque SWITCH -->
+        <div class="box switch">
+            <h2>Estructura SWITCH</h2>
+            <label for="mes">Mes por Número:</label>
+            <input type="number" id="mes" placeholder="Ingrese un número (1-12)">
+            <button id="mostrarMesBtn">Mostrar Mes</button>
+            <div id="resultadoSwitch"></div>
+        </div>
+
+        <!-- Bloque ARRAY -->
+        <div class="box array">
+            <h2>Gestión de Arrays</h2>
+            <label for="nombre">Agregar un nombre:</label>
+            <input type="text" id="nombre" placeholder="Ingrese un nombre">
+            <button id="agregarNombreBtn">Agregar</button>
+            <div id="listaNombres"></div>
+        </div>
+    </main>
+
+    <script src="scripts/script_Pag2.js"></script>
+</body>
+</html>

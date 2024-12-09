@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuarios</title>
+    <link rel="stylesheet" href="styles/styles_pag3.css">
+</head>
+<body>
+
+    <header>
+        <h1>Pagina N.3 Registro de usuarios</h1>
+        <a href="index_pag1.html" class="btn-back">ATRÁS</a>
+    </header>
+
+    <div class="container">
+        <h1>Registro de Usuarios</h1>
+        <form id="registroForm">
+            <label for="id">ID:</label>
+            <input type="number" id="id" placeholder="Ingrese el ID" required>
+
+            <label for="cedula">Cédula de Identidad:</label>
+            <input type="text" id="cedula" placeholder="Ingrese su cédula" required>
+
+            <label for="nombres">Nombres y Apellidos:</label>
+            <input type="text" id="nombres" placeholder="Ingrese nombres y apellidos" required>
+
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" required>
+
+            <label for="ciudad">Ciudad de Procedencia:</label>
+            <select id="ciudad" required>
+                <option value="" disabled selected>Seleccione su ciudad</option>
+                <option value="Quito">Quito</option>
+                <option value="Guayaquil">Guayaquil</option>
+                <option value="Cuenca">Cuenca</option>
+                <option value="Ambato">Ambato</option>
+                <option value="Manta">Loja</option>
+            </select>
+
+            <button type="button" id="registrarBtn">Registrar</button>
+        </form>
+    </div>
+    <script src="scripts/script_pag3.js"></script>
+</body>
+</html>
